@@ -1,0 +1,61 @@
+2026-07-11 14:25:46.289900 | User: employee | Action: READ_WEATHER | Risk: 10 | Decision: ALLOW
+2026-07-11 14:26:22.899932 | User: employee | Action: READ_WEATHER | Risk: 10 | Decision: ALLOW
+2026-07-11 14:26:38.709055 | User: employee | Action: EXPORT_DATABASE | Risk: 90 | Decision: DENY
+2026-07-12 14:09:49.877842 | User: employee | Action: READ_WEATHER | Risk: 10 | Decision: ALLOW
+2026-07-12 14:12:02.241435 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-12 14:18:24.270433 | User: employee | Action: READ_WEATHER | Risk: 10 | Decision: ALLOW
+2026-07-12 14:21:34.907883 | User: employee | Action: READ_WEATHER | Risk: 10 | Decision: ALLOW
+2026-07-12 14:22:52.094989 | User: employee | Action: EXPORT_DATABASE | Risk: 90 | Decision: DENY
+2026-07-13 14:21:11.618755 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-15 10:56:45.871862 | User: employee | Action: READ_DATABASE | Risk: 50 | Decision: REQUIRE_APPROVAL
+2026-07-15 10:57:14.286087 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-15 12:17:05.128084 | User: employee | Action: READ_WEATHER | Risk: 10 | Decision: ALLOW
+2026-07-15 12:17:52.011126 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-15 12:18:53.763133 | User: employee | Action: READ_DATABASE | Risk: 50 | Decision: REQUIRE_APPROVAL
+2026-07-24 11:45:08.660528 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-24 11:46:53.994868 | User: employee | Action: EXPORT_CUSTOMER_DATA | Risk: 80 | Decision: DENY
+2026-07-24 11:51:35.562003 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-24 11:51:57.083197 | User: employee | Action: EXPORT_CUSTOMER_DATA | Risk: 90 | Decision: DENY
+2026-07-24 11:52:37.024680 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-24 11:52:57.377461 | User: employee | Action: UNKNOWN_ACTION | Risk: 80 | Decision: DENY
+2026-07-24 11:53:48.370404 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-24 12:29:44.523241 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-24 12:37:00.668786 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-24 12:42:22.527446 | User: admin | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-24 12:45:19.423893 | User: admin | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-24 12:55:29.120550 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-24 12:56:52.514409 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-24 12:57:33.544609 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-24 13:02:21.841261 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-24 13:02:43.203950 | User: admin | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-29 14:13:29.827330 | User: data manager | Action: UNKNOWN_ACTION | Risk: 100 | Decision: DENY
+2026-07-29 14:13:45.332618 | User: admin | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-29 14:16:54.240940 | User: admin | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-29 14:17:37.001232 | User: data manager | Action: EXPORT_CUSTOMER_DATA | Risk: 100 | Decision: DENY
+2026-07-29 14:19:00.209734 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-29 14:19:40.617549 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-07-29 14:20:42.898259 | User: employee | Action: ACCESS_FINANCIAL_REPORT | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-29 14:20:58.535935 | User: admin | Action: ACCESS_FINANCIAL_REPORT | Risk: 80 | Decision: DENY
+2026-07-29 14:27:44.345758 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-29 14:27:59.798659 | User: admin | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-29 14:28:25.589667 | User: admin finance report | Action: UNKNOWN_ACTION | Risk: 100 | Decision: DENY
+2026-07-29 14:28:40.780795 | User: admin | Action: ACCESS_FINANCIAL_REPORT | Risk: 80 | Decision: ALLOW
+2026-07-29 14:29:03.124399 | User: employee | Action: ACCESS_FINANCIAL_REPORT | Risk: 90 | Decision: DENY - Permission Failed
+2026-07-29 14:31:35.490530 | User: data manager | Action: EXPORT_CUSTOMER_DATA | Risk: 100 | Decision: DENY
+2026-09-24 11:43:25.328222 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-09-24 11:43:57.518203 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-09-24 11:45:57.894122 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-09-30 04:18:37.800160 | User: admin | Action: READ_EMPLOYEE_RECORDS | Risk: 50 | Decision: ALLOW
+2026-09-30 04:18:57.380987 | User: employee | Action: READ_EMPLOYEE_RECORDS | Risk: 50 | Decision: ALLOW
+2026-09-30 04:19:33.217027 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-10-01 08:32:55.469652 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-10-01 08:33:14.098235 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-10-01 08:33:32.963631 | User: admin | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-10-01 08:34:49.747361 | User: admin | Action: EXPORT_CUSTOMER_DATA | Risk: 90 | Decision: ALLOW
+2026-10-01 08:35:13.532055 | User: employee | Action: EXPORT_CUSTOMER_DATA | Risk: 90 | Decision: DENY - Permission Failed
+2026-10-01 11:54:30.276186 | User: employee | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-10-01 11:56:13.661074 | User: employee | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
+2026-10-01 11:57:58.497618 | User: admin | Action: UNKNOWN_ACTION | Risk: 90 | Decision: DENY - Permission Failed
+2026-10-01 11:58:36.759557 | User: admin | Action: EXPORT_CUSTOMER_DATA | Risk: 90 | Decision: ALLOW
+2026-10-01 14:49:46.198598 | User: empolyee | Action: CREATE_SUPPORT_TICKET | Risk: 100 | Decision: DENY
+2026-10-01 14:50:16.007141 | User: admin | Action: CREATE_SUPPORT_TICKET | Risk: 10 | Decision: ALLOW
